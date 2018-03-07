@@ -16,7 +16,7 @@
 		"settings": {
 			"PermitRootLogin": "no",
 			"Port": 22,
-            "GSSAPIAuthentication": "yes"
+            		"GSSAPIAuthentication": "yes"
 		}
 	}
 }
