@@ -4,6 +4,7 @@
 import json
 import sys
 import os.path
+from pymongo import MongoClient
 
 if len(sys.argv) == 1:
     print "Client not Provided"
