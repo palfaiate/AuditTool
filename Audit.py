@@ -6,13 +6,13 @@ import sys
 import os.path
 
 if len(sys.argv) == 1:
-    print "Client not Provided"
+    print "Settings File not Provided"
     sys, exit()
 else:
     x = sys.argv[1]
-    client = "clients/" + x + ".json"
-    if os.path.isfile(client):
-        with open(client, 'r') as j:
+    sFile = "settings/" + x + ".json"
+    if os.path.isfile(sFile):
+        with open(sFile, 'r') as j:
             files = json.load(j)
             for a in files:
                 f1 = files[a]['location']
@@ -38,4 +38,4 @@ else:
                                     print l, 'Correct Value should be:', files[a]['settings'][l]
                                     print ''
     else:
-        print "Unable to find the Client Compliance file!"
+        print "Unable to find the Compliance file!"
