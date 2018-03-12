@@ -15,7 +15,7 @@ else:
         with open(sFile, 'r') as j:
             files = json.load(j)
             for a in files:
-                f1 = files[a]['location']
+                f1 = files[a]['path']
                 print f1
                 f = open(f1, 'r')
                 for line in f:

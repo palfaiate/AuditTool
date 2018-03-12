@@ -1,7 +1,8 @@
 {
     "login.defs": {
     "OS": "Linux",
-		"location": "/etc/login.defs",
+    "type":"file",
+		"path": "/etc/login.defs",
 		"settings": {
 			"PASS_MAX_DAYS": 90,
 			"PASS_MIN_DAYS": 1,
@@ -14,11 +15,12 @@
 	},
     "sshd_config": {
     "OS": "Linux",
-		"location": "/etc/ssh/ssh_config",
+    "type":"file",
+		"path": "/etc/ssh/ssh_config",
 		"settings": {
 			"PermitRootLogin": "no",
 			"Port": 22,
-            		"GSSAPIAuthentication": "yes"
+      "GSSAPIAuthentication": "yes"
 		}
 	}
 }
