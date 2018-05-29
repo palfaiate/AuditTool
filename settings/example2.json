@@ -1,0 +1,22 @@
+{
+    "<hostname>": {
+    "fqdn":"",
+    "hostname":"<hostname>",
+    "OS": "Linux",
+    "version": "3.10",
+		"interfaces": {
+      "interface1":{"ipv4":"192.168.1.1","ipv6":"0:0:0::1"},
+      "interface2":{"ipv4":"192.168.1.1","ipv6":"0:0:0::1"},
+      "interface3":{"ipv4":"192.168.1.1","ipv6":"0:0:0::1"}
+		}
+	},
+  "<hostname2>": {
+  "fqdn":"",
+  "hostname":"<hostname2>",
+  "OS": "Linux",
+  "version": "3.10",
+  "interfaces": {
+    "interface1":{"ipv4":"192.168.1.1","ipv6":"0:0:0::1"}
+  }
+}
+}
