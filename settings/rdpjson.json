@@ -1,8 +1,8 @@
 {
   "RDP":{
-      "BANIF": {
-        "SRVTERMSERV03":{
-          "Host": "10.99.12.183",
+      "CLIENT_NAME": {
+        "SERVER_NAME":{
+          "Host": "IP/FQDN",
           "Port": "",
           "CredentialUserName": "",
           "CredentialDomain": ""
