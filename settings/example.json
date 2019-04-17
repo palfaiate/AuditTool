@@ -20,7 +20,60 @@
 		"settings": {
 			"PermitRootLogin": "no",
 			"Port": 22,
-      "GSSAPIAuthentication": "yes"
+      		"GSSAPIAuthentication": "yes",
+			"Banner": "/etc/ssh/sshd-banner",
+			"Match": {
+				"Address": {
+					"10.254.179.200": {
+						"ip":"10.254.179.200",
+						"settings": {
+							"PasswordAuthentication": "yes",
+							"PubkeyAuthentication": "yes",
+							"PermitRootLogin": "yes"
+						}
+					},
+					"10.221.192.200": {
+						"ip": "10.221.192.200",
+						"settings": {
+							"PasswordAuthentication": "yes",
+							"PubkeyAuthentication": "yes",
+							"PermitRootLogin": "yes"
+						}
+					},
+					"10.249.209.20": {
+						"ip": "10.249.209.20",
+						"settings": {
+							"PasswordAuthentication": "yes",
+							"PubkeyAuthentication": "yes",
+							"PermitRootLogin": "yes"
+						}
+					},
+					"10.221.200.19": {
+						"ip": "10.221.200.19",
+						"settings": {
+							"PasswordAuthentication": "yes",
+							"PubkeyAuthentication": "yes",
+							"PermitRootLogin": "yes"
+						}
+					},
+					"10.249.209.81": {
+						"ip": "10.249.209.81",
+						"settings": {
+							"PasswordAuthentication": "yes",
+							"PubkeyAuthentication": "yes",
+							"PermitRootLogin": "yes"
+						}
+					},
+					"127.0.0.1": {
+						"ip": "127.0.0.1",
+						"settings": {
+							"PasswordAuthentication": "yes",
+							"PubkeyAuthentication": "yes",
+							"PermitRootLogin": "yes"
+						}
+					}
+				}
+			}
 		}
 	}
 }
